@@ -1,14 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* shared style */
 .inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
 
-.common-btn{
+.color {
+    color: #30B868;
+}
+
+
+.common-btn {
     border: none;
     border-radius: 5px;
     background-color: #30B868;
@@ -20,11 +26,13 @@
 
 /* main style */
 
-header{
+header {
     padding: 16px 0px;
 }
 
-nav{
+
+/* navigation style */
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,8 +40,53 @@ nav{
     width: 1300px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     gap: 30px;
     list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* banner section style */
+.banner-bg {
+    background: url(/assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 115px 120px 180px 120px;
+    text-align: center;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 5px;
+    margin: 0 auto;
+    padding: 8px 10px;
+    border-radius: 100px;
+    border: none;
+    font-weight: 500;
+}
+
+.btn-container {
+    margin-top: 30px;
+}
+
+.banner-p {
+    line-height: 30px;
+}
+
+.banner-play-btn {
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 12px 16px;
+}
+
+.banner-bg h2 {
+    font-size: 72px;
+    color: white;
 }
