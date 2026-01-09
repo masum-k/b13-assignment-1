@@ -4,6 +4,7 @@
 }
 
 /* shared style */
+
 .inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -35,14 +36,13 @@
     padding: 12px 16px;
 }
 
-/* main style */
 
+
+/* navigation style */
 .nav-header {
     padding: 16px 0px;
 }
 
-
-/* navigation style */
 nav {
     display: flex;
     justify-content: space-between;
@@ -64,7 +64,7 @@ nav a {
 
 /* banner section style */
 .banner-bg {
-    background: url(/assets/hero-bg.png);
+    background: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 115px 120px 180px 120px;
@@ -81,10 +81,6 @@ nav a {
     font-weight: 500;
 }
 
-.btn-container {
-    margin-top: 30px;
-}
-
 .banner-p {
     line-height: 30px;
     color: white;
@@ -92,11 +88,10 @@ nav a {
 
 .btn-container {
     display: flex;
+    margin-top: 30px;
     justify-content: center;
     gap: 10px;
 }
-
-
 
 .banner-play-btn {
     background-color: transparent;
@@ -145,9 +140,63 @@ nav a {
     width: 320px;
     padding-top: 60px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 .cards h3{
     margin-bottom: 10px;
+}
+
+
+/* solution section */
+
+.solution-sect-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    gap: 60px;
+}
+
+.solution-heading h2{
+    font-size: 48px;
+}
+
+.solution-heading h4{
+    color: #30B868;
+    margin-bottom: 15px;
+}
+
+.solution-heading p{
+    margin: 20px 0 20px 0;
+}
+
+.solutions p{
+    display: flex;
+    align-items: center;
+}
+
+.challenge-btn{
+    display: flex;
+    margin: 0 auto;
+    gap: 5px;
+}
+
+.challenge-sect-box h2{
+    margin-top: 120px;
+    font-size: 42px;
+    padding-top: 70px;
+}
+
+.challenge-sect-box p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.challenge-sect-box{
+    width: 1150px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #FBFBFB;
 }
