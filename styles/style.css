@@ -25,6 +25,16 @@
     gap: 5px;
 }
 
+.common-btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #30B868;
+    border: 1px solid white;
+}
+
+.nav-btn:hover{
+    border: 1px solid #30B868;
+}
 
 .common-btn {
     border: none;
@@ -91,6 +101,13 @@ nav a {
     margin-top: 30px;
     justify-content: center;
     gap: 10px;
+}
+
+.banner-play-btn:hover {
+    cursor: pointer;
+    background-color: #30B868;
+    border: none;
+    color: white;
 }
 
 .banner-play-btn {
