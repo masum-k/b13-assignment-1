@@ -182,21 +182,61 @@ nav a {
     gap: 5px;
 }
 
-.challenge-sect-box h2{
+.challenge-container{
     margin-top: 120px;
-    font-size: 42px;
-    padding-top: 70px;
+}
+                
+.challenge-heading{
+    padding: 70px 0 70px 0;
 }
 
-.challenge-sect-box p{
+.challenge-heading h2{
+    font-size: 42px;
+}
+
+.challenge-heading p{
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.challenge-sect-box{
+.challenge-heading{
     width: 1150px;
     margin: 0 auto;
     text-align: center;
     border-radius: 12px;
     background-color: #FBFBFB;
+}
+
+/* footer */
+footer{
+    margin-top: 120px;
+    background-color: #001931;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px 80px 120px;
+}
+
+hr{
+    width: 1420px;
+    margin: 0 auto;
+    border: 1px solid #667788;
+}
+
+.footer-logo img{
+    padding-right: 10px;
+}
+
+.footer-logo h4{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.copyright{
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
 }
